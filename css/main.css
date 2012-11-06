@@ -1,0 +1,23 @@
+
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: verdana,arial,sans-serif;
+    font-size: small;
+}
+
+div#container div label {
+    width:150px;
+    float:left;
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+
+div#container div input[type="button"] {
+    margin-left: 162px;
+}
+
+
