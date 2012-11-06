@@ -25,6 +25,10 @@
         //map = new google.maps.Map($('#map_canvas'), mapOptions);
     }
 
+    // https://developers.google.com/maps/articles/phpsqlsearch_v3
+    // https://developers.google.com/maps/articles/phpsqlajax_v3
+    // https://developers.google.com/maps/documentation/javascript/examples/
+    
     function codeAddress() {
         var address = $('#address').val();
         geocoder.geocode( { 'address': address}, function(results, status) {
