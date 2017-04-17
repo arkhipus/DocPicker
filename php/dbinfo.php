@@ -1,5 +1,5 @@
 <?php
 $username="root";
-$password="50Rockets";
+$password="SuperSecret";
 $database="docfinder";
 ?>
